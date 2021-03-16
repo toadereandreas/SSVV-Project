@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2db52f8e-c37a-42e5-baae-c9defb12da1a" name="Default Changelist" comment="" />
+    <list default="true" id="2db52f8e-c37a-42e5-baae-c9defb12da1a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +17,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -22,6 +33,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1pptM4FpVqLRh9zviiHBfdvfiHv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,6 +41,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -83,7 +96,7 @@
       <workItem from="1615891811427" duration="151000" />
       <workItem from="1615891985967" duration="112000" />
       <workItem from="1615892120613" duration="292000" />
-      <workItem from="1615892437199" duration="344000" />
+      <workItem from="1615892437199" duration="844000" />
     </task>
     <servers />
   </component>
@@ -107,22 +120,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="210" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-3440.-369.3440.1400@0.0.1920.1040" timestamp="1615892249319" />
-    <state width="1877" height="643" key="GridCell.Tab.0.bottom" timestamp="1615892974574">
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1615893081791">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="643" key="GridCell.Tab.0.bottom/0.0.1920.1040/-3440.-369.3440.1400@0.0.1920.1040" timestamp="1615892974574" />
-    <state width="1877" height="643" key="GridCell.Tab.0.center" timestamp="1615892974574">
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-3440.-369.3440.1400@0.0.1920.1040" timestamp="1615893081791" />
+    <state width="1877" height="643" key="GridCell.Tab.0.bottom" timestamp="1615893407172">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="643" key="GridCell.Tab.0.center/0.0.1920.1040/-3440.-369.3440.1400@0.0.1920.1040" timestamp="1615892974574" />
-    <state width="1877" height="643" key="GridCell.Tab.0.left" timestamp="1615892974574">
+    <state width="1877" height="643" key="GridCell.Tab.0.bottom/0.0.1920.1040/-3440.-369.3440.1400@0.0.1920.1040" timestamp="1615893407172" />
+    <state width="1877" height="643" key="GridCell.Tab.0.center" timestamp="1615893407172">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="643" key="GridCell.Tab.0.left/0.0.1920.1040/-3440.-369.3440.1400@0.0.1920.1040" timestamp="1615892974574" />
-    <state width="1877" height="643" key="GridCell.Tab.0.right" timestamp="1615892974574">
+    <state width="1877" height="643" key="GridCell.Tab.0.center/0.0.1920.1040/-3440.-369.3440.1400@0.0.1920.1040" timestamp="1615893407172" />
+    <state width="1877" height="643" key="GridCell.Tab.0.left" timestamp="1615893407172">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="643" key="GridCell.Tab.0.right/0.0.1920.1040/-3440.-369.3440.1400@0.0.1920.1040" timestamp="1615892974574" />
+    <state width="1877" height="643" key="GridCell.Tab.0.left/0.0.1920.1040/-3440.-369.3440.1400@0.0.1920.1040" timestamp="1615893407172" />
+    <state width="1877" height="643" key="GridCell.Tab.0.right" timestamp="1615893407172">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="643" key="GridCell.Tab.0.right/0.0.1920.1040/-3440.-369.3440.1400@0.0.1920.1040" timestamp="1615893407172" />
+    <state x="184" y="85" key="MergeDialog" timestamp="1615893338440">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="184" y="85" key="MergeDialog/0.0.1920.1040/-3440.-369.3440.1400@0.0.1920.1040" timestamp="1615893338440" />
+    <state x="672" y="235" key="MultipleFileMergeDialog" timestamp="1615893361617">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="672" y="235" key="MultipleFileMergeDialog/0.0.1920.1040/-3440.-369.3440.1400@0.0.1920.1040" timestamp="1615893361617" />
     <state x="880" y="162" key="SettingsEditor" timestamp="1615892780628">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -131,5 +156,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1136" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-3440.-369.3440.1400@0.0.1920.1040" timestamp="1615892458088" />
+    <state x="726" y="232" key="git4idea.branch.GitSmartOperationDialog" timestamp="1615893357099">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="726" y="232" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040/-3440.-369.3440.1400@0.0.1920.1040" timestamp="1615893357099" />
   </component>
 </project>
