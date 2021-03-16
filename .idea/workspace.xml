@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2db52f8e-c37a-42e5-baae-c9defb12da1a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1pptM4FpVqLRh9zviiHBfdvfiHv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\University\SEM 6\SSVV\Laboratory 2\SSVV-Project" />
+      <recent name="D:\University\SEM 6\SSVV\Laboratory 2\SSVV-Project\src\main\java" />
+      <recent name="D:\University\SEM 6\SSVV\Laboratory 2\SSVV-Project\src\main\java\domain" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="SSVV-Project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2db52f8e-c37a-42e5-baae-c9defb12da1a" name="Default Changelist" comment="" />
+      <created>1615891807596</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615891807596</updated>
+      <workItem from="1615891811427" duration="151000" />
+      <workItem from="1615891985967" duration="112000" />
+      <workItem from="1615892120613" duration="292000" />
+      <workItem from="1615892437199" duration="344000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="72" y="181" key="#Project_Structure" timestamp="1615892318220">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="72" y="181" key="#Project_Structure/0.0.1920.1040/-3440.-369.3440.1400@0.0.1920.1040" timestamp="1615892318220" />
+    <state x="0" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615892593562">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-3440.-369.3440.1400@0.0.1920.1040" timestamp="1615892593562" />
+    <state x="275" y="303" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1615892591805">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="275" y="303" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040/-3440.-369.3440.1400@0.0.1920.1040" timestamp="1615892591805" />
+    <state x="210" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1615892249319">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="210" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-3440.-369.3440.1400@0.0.1920.1040" timestamp="1615892249319" />
+    <state width="1877" height="643" key="GridCell.Tab.0.bottom" timestamp="1615892974574">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="643" key="GridCell.Tab.0.bottom/0.0.1920.1040/-3440.-369.3440.1400@0.0.1920.1040" timestamp="1615892974574" />
+    <state width="1877" height="643" key="GridCell.Tab.0.center" timestamp="1615892974574">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="643" key="GridCell.Tab.0.center/0.0.1920.1040/-3440.-369.3440.1400@0.0.1920.1040" timestamp="1615892974574" />
+    <state width="1877" height="643" key="GridCell.Tab.0.left" timestamp="1615892974574">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="643" key="GridCell.Tab.0.left/0.0.1920.1040/-3440.-369.3440.1400@0.0.1920.1040" timestamp="1615892974574" />
+    <state width="1877" height="643" key="GridCell.Tab.0.right" timestamp="1615892974574">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="643" key="GridCell.Tab.0.right/0.0.1920.1040/-3440.-369.3440.1400@0.0.1920.1040" timestamp="1615892974574" />
+    <state x="880" y="162" key="SettingsEditor" timestamp="1615892780628">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="880" y="162" key="SettingsEditor/0.0.1920.1040/-3440.-369.3440.1400@0.0.1920.1040" timestamp="1615892780628" />
+    <state x="1136" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1615892458088">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1136" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-3440.-369.3440.1400@0.0.1920.1040" timestamp="1615892458088" />
+  </component>
+</project>
