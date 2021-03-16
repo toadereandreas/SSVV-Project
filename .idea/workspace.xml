@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2db52f8e-c37a-42e5-baae-c9defb12da1a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +49,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -57,7 +58,7 @@
       <recent name="D:\University\SEM 6\SSVV\Laboratory 2\SSVV-Project\src\main\java\domain" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.AppTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="SSVV-Project" />
@@ -65,8 +66,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SSVV-Project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AppTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.tc_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SSVV-Project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AppTest" />
+      <option name="METHOD_NAME" value="tc_2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppTest" />
+        <item itemvalue="JUnit.AppTest.tc_2" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -96,7 +118,8 @@
       <workItem from="1615891811427" duration="151000" />
       <workItem from="1615891985967" duration="112000" />
       <workItem from="1615892120613" duration="292000" />
-      <workItem from="1615892437199" duration="844000" />
+      <workItem from="1615892437199" duration="1206000" />
+      <workItem from="1615893664763" duration="849000" />
     </task>
     <servers />
   </component>
@@ -124,22 +147,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-3440.-369.3440.1400@0.0.1920.1040" timestamp="1615893081791" />
-    <state width="1877" height="643" key="GridCell.Tab.0.bottom" timestamp="1615893407172">
+    <state width="1877" height="217" key="GridCell.Tab.0.bottom" timestamp="1615894518423">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="643" key="GridCell.Tab.0.bottom/0.0.1920.1040/-3440.-369.3440.1400@0.0.1920.1040" timestamp="1615893407172" />
-    <state width="1877" height="643" key="GridCell.Tab.0.center" timestamp="1615893407172">
+    <state width="1877" height="217" key="GridCell.Tab.0.bottom/0.0.1920.1040/-3440.-369.3440.1400@0.0.1920.1040" timestamp="1615894518423" />
+    <state width="1877" height="217" key="GridCell.Tab.0.center" timestamp="1615894518423">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="643" key="GridCell.Tab.0.center/0.0.1920.1040/-3440.-369.3440.1400@0.0.1920.1040" timestamp="1615893407172" />
-    <state width="1877" height="643" key="GridCell.Tab.0.left" timestamp="1615893407172">
+    <state width="1877" height="217" key="GridCell.Tab.0.center/0.0.1920.1040/-3440.-369.3440.1400@0.0.1920.1040" timestamp="1615894518423" />
+    <state width="1877" height="217" key="GridCell.Tab.0.left" timestamp="1615894518422">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="643" key="GridCell.Tab.0.left/0.0.1920.1040/-3440.-369.3440.1400@0.0.1920.1040" timestamp="1615893407172" />
-    <state width="1877" height="643" key="GridCell.Tab.0.right" timestamp="1615893407172">
+    <state width="1877" height="217" key="GridCell.Tab.0.left/0.0.1920.1040/-3440.-369.3440.1400@0.0.1920.1040" timestamp="1615894518422" />
+    <state width="1877" height="217" key="GridCell.Tab.0.right" timestamp="1615894518423">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="643" key="GridCell.Tab.0.right/0.0.1920.1040/-3440.-369.3440.1400@0.0.1920.1040" timestamp="1615893407172" />
+    <state width="1877" height="217" key="GridCell.Tab.0.right/0.0.1920.1040/-3440.-369.3440.1400@0.0.1920.1040" timestamp="1615894518423" />
+    <state x="490" y="174" key="Maven.ArtifactSearchDialog" timestamp="1615893586260">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="490" y="174" key="Maven.ArtifactSearchDialog/0.0.1920.1040/-3440.-369.3440.1400@0.0.1920.1040" timestamp="1615893586260" />
     <state x="184" y="85" key="MergeDialog" timestamp="1615893338440">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -148,14 +175,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="672" y="235" key="MultipleFileMergeDialog/0.0.1920.1040/-3440.-369.3440.1400@0.0.1920.1040" timestamp="1615893361617" />
-    <state x="880" y="162" key="SettingsEditor" timestamp="1615892780628">
+    <state x="614" y="131" key="SettingsEditor" timestamp="1615893734384">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="880" y="162" key="SettingsEditor/0.0.1920.1040/-3440.-369.3440.1400@0.0.1920.1040" timestamp="1615892780628" />
-    <state x="1136" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1615892458088">
+    <state x="614" y="131" key="SettingsEditor/0.0.1920.1040/-3440.-369.3440.1400@0.0.1920.1040" timestamp="1615893734384" />
+    <state x="1136" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1615893669054">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1136" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-3440.-369.3440.1400@0.0.1920.1040" timestamp="1615892458088" />
+    <state x="1136" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-3440.-369.3440.1400@0.0.1920.1040" timestamp="1615893669054" />
     <state x="726" y="232" key="git4idea.branch.GitSmartOperationDialog" timestamp="1615893357099">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
