@@ -1,18 +1,22 @@
 import domain.Student;
+import domain.Tema;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 import repository.StudentFileRepository;
 import repository.StudentRepository;
 import repository.StudentXMLRepository;
+import repository.TemaXMLRepository;
 import service.Service;
 import validation.StudentValidator;
+import validation.TemaValidator;
 import validation.ValidationException;
 import validation.Validator;
 
 public class AppTest {
 
     private StudentXMLRepository studentXMLRepository;
+    private TemaXMLRepository temaXMLRepository;
 
     @Test
     public void tc_2students(){
@@ -299,5 +303,154 @@ public class AppTest {
         Student student = new Student("id1","Wayne",Integer.MIN_VALUE);
 
         assertEquals(null,studentXMLRepository.save(student));
+    }
+
+
+    @Test
+    public void wb_1(){
+
+        Validator<Tema> temaValidator = new TemaValidator();
+
+        temaXMLRepository = new TemaXMLRepository(temaValidator,"temetest.xml");
+
+        Tema tema = new Tema("1","descr",8,7);
+
+        assertEquals(tema,temaXMLRepository.save(tema));
+    }
+
+    @Test
+    public void wb_2(){
+
+        Validator<Tema> temaValidator = new TemaValidator();
+
+        temaXMLRepository = new TemaXMLRepository(temaValidator,"temetest.xml");
+
+        Tema tema = new Tema("1","descr",2,7);
+
+        assertEquals(null,temaXMLRepository.save(tema));
+    }
+
+    @Test
+    public void wb_3(){
+
+        Validator<Tema> temaValidator = new TemaValidator();
+
+        temaXMLRepository = new TemaXMLRepository(temaValidator,"temetest.xml");
+
+        Tema tema = new Tema(null,"descr",2,7);
+
+        assertEquals(null,temaXMLRepository.save(tema));
+    }
+
+    @Test
+    public void wb_4(){
+
+        Validator<Tema> temaValidator = new TemaValidator();
+
+        temaXMLRepository = new TemaXMLRepository(temaValidator,"temetest.xml");
+
+        Tema tema = new Tema(" ","descr",2,7);
+
+        assertEquals(null,temaXMLRepository.save(tema));
+    }
+
+    @Test(expected = ValidationException.class)
+    public void wb_5(){
+
+        Validator<Tema> temaValidator = new TemaValidator();
+
+        Tema tema = new Tema("1","descr",2,7);
+
+        temaValidator.validate(tema);
+    }
+
+    @Test(expected = ValidationException.class)
+    public void wb_6(){
+
+        Validator<Tema> temaValidator = new TemaValidator();
+
+        Tema tema = new Tema("1","descr",-7,7);
+
+        temaValidator.validate(tema);
+    }
+
+    @Test(expected = ValidationException.class)
+    public void wb_7(){
+
+        Validator<Tema> temaValidator = new TemaValidator();
+
+        Tema tema = new Tema("1","descr",15,7);
+
+        temaValidator.validate(tema);
+    }
+
+    @Test(expected = ValidationException.class)
+    public void wb_8(){
+
+        Validator<Tema> temaValidator = new TemaValidator();
+
+        Tema tema = new Tema("1","descr",2,-2);
+
+        temaValidator.validate(tema);
+    }
+
+    @Test(expected = ValidationException.class)
+    public void wb_9(){
+
+        Validator<Tema> temaValidator = new TemaValidator();
+
+        Tema tema = new Tema("1","descr",2,17);
+
+        temaValidator.validate(tema);
+    }
+
+    @Test(expected = ValidationException.class)
+    public void wb_10(){
+
+        Validator<Tema> temaValidator = new TemaValidator();
+
+        Tema tema = new Tema("1","descr",2,7);
+
+        temaValidator.validate(tema);
+    }
+
+    @Test(expected = ValidationException.class)
+    public void wb_11(){
+
+        Validator<Tema> temaValidator = new TemaValidator();
+
+        Tema tema = new Tema("1","",2,7);
+
+        temaValidator.validate(tema);
+    }
+
+    @Test(expected = ValidationException.class)
+    public void wb_12(){
+
+        Validator<Tema> temaValidator = new TemaValidator();
+
+        Tema tema = new Tema("1",null,2,7);
+
+        temaValidator.validate(tema);
+    }
+
+    @Test(expected = ValidationException.class)
+    public void wb_13(){
+
+        Validator<Tema> temaValidator = new TemaValidator();
+
+        Tema tema = new Tema("","descr",2,7);
+
+        temaValidator.validate(tema);
+    }
+
+    @Test(expected = ValidationException.class)
+    public void wb_14(){
+
+        Validator<Tema> temaValidator = new TemaValidator();
+
+        Tema tema = new Tema(null,"descr",2,7);
+
+        temaValidator.validate(tema);
     }
 }
