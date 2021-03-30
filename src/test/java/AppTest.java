@@ -19,7 +19,7 @@ public class AppTest {
 
         Validator<Student> studentValidator = new StudentValidator();
 
-        studentXMLRepository = new StudentXMLRepository(studentValidator, "studenti.xml");
+        studentXMLRepository = new StudentXMLRepository(studentValidator, "studentitest.xml");
 
         studentXMLRepository.save(new Student("1","student-test-1",111));
         studentXMLRepository.save(new Student("2","student-test-1",111));
@@ -34,7 +34,7 @@ public class AppTest {
 
         Validator<Student> studentValidator = new StudentValidator();
 
-        studentXMLRepository = new StudentXMLRepository(studentValidator, "studenti.xml");
+        studentXMLRepository = new StudentXMLRepository(studentValidator, "studentitest.xml");
 
         studentXMLRepository.save(new Student("1","student-test-1",111));
 
@@ -47,7 +47,7 @@ public class AppTest {
 
         Validator<Student> studentValidator = new StudentValidator();
 
-        studentXMLRepository = new StudentXMLRepository(studentValidator, "studenti.xml");
+        studentXMLRepository = new StudentXMLRepository(studentValidator, "studentitest.xml");
 
         studentXMLRepository.save(new Student("1","Wayne",937));
 
@@ -60,7 +60,7 @@ public class AppTest {
 
         Validator<Student> studentValidator = new StudentValidator();
 
-        studentXMLRepository = new StudentXMLRepository(studentValidator, "studenti.xml");
+        studentXMLRepository = new StudentXMLRepository(studentValidator, "studentitest.xml");
 
         studentXMLRepository.save(new Student("100","Wayne",937));
         studentXMLRepository.save(new Student("100","Bruce",937));
@@ -73,7 +73,7 @@ public class AppTest {
 
         Validator<Student> studentValidator = new StudentValidator();
 
-        studentXMLRepository = new StudentXMLRepository(studentValidator, "studenti.xml");
+        studentXMLRepository = new StudentXMLRepository(studentValidator, "studentitest.xml");
 
         assertEquals(null,studentXMLRepository.save(new Student("","Wayne",937)));
     }
@@ -83,7 +83,7 @@ public class AppTest {
 
         Validator<Student> studentValidator = new StudentValidator();
 
-        studentXMLRepository = new StudentXMLRepository(studentValidator, "studenti.xml");
+        studentXMLRepository = new StudentXMLRepository(studentValidator, "studentitest.xml");
 
         assertEquals(null,studentXMLRepository.save(new Student("111","",937)));
     }
@@ -93,7 +93,7 @@ public class AppTest {
 
         Validator<Student> studentValidator = new StudentValidator();
 
-        studentXMLRepository = new StudentXMLRepository(studentValidator, "studenti.xml");
+        studentXMLRepository = new StudentXMLRepository(studentValidator, "studentitest.xml");
 
         assertEquals(null,studentXMLRepository.save(new Student("111","",-1)));
     }
@@ -103,7 +103,7 @@ public class AppTest {
 
         Validator<Student> studentValidator = new StudentValidator();
 
-        studentXMLRepository = new StudentXMLRepository(studentValidator, "studenti.xml");
+        studentXMLRepository = new StudentXMLRepository(studentValidator, "studentitest.xml");
 
         assertEquals(null,studentXMLRepository.save(new Student("111","",-1)));
     }
@@ -114,7 +114,7 @@ public class AppTest {
 
         Validator<Student> studentValidator = new StudentValidator();
 
-        studentXMLRepository = new StudentXMLRepository(studentValidator, "studenti.xml");
+        studentXMLRepository = new StudentXMLRepository(studentValidator, "studentitest.xml");
 
         Student student = new Student(" ","wayne",937);
 
@@ -126,7 +126,7 @@ public class AppTest {
 
         Validator<Student> studentValidator = new StudentValidator();
 
-        studentXMLRepository = new StudentXMLRepository(studentValidator, "studenti.xml");
+        studentXMLRepository = new StudentXMLRepository(studentValidator, "studentitest.xml");
 
         Student student = new Student("a","wayne",937);
 
@@ -138,7 +138,7 @@ public class AppTest {
 
         Validator<Student> studentValidator = new StudentValidator();
 
-        studentXMLRepository = new StudentXMLRepository(studentValidator, "studenti.xml");
+        studentXMLRepository = new StudentXMLRepository(studentValidator, "studentitest.xml");
 
         Student student = new Student("111","wayne",937);
 
@@ -150,7 +150,7 @@ public class AppTest {
 
         Validator<Student> studentValidator = new StudentValidator();
 
-        studentXMLRepository = new StudentXMLRepository(studentValidator, "studenti.xml");
+        studentXMLRepository = new StudentXMLRepository(studentValidator, "studentitest.xml");
 
         Student student = new Student("a1b2c3","wayne",937);
 
@@ -162,7 +162,7 @@ public class AppTest {
 
         Validator<Student> studentValidator = new StudentValidator();
 
-        studentXMLRepository = new StudentXMLRepository(studentValidator, "studenti.xml");
+        studentXMLRepository = new StudentXMLRepository(studentValidator, "studentitest.xml");
 
         Student student = new Student("z","wayne",937);
 
@@ -174,7 +174,7 @@ public class AppTest {
 
         Validator<Student> studentValidator = new StudentValidator();
 
-        studentXMLRepository = new StudentXMLRepository(studentValidator, "studenti.xml");
+        studentXMLRepository = new StudentXMLRepository(studentValidator, "studentitest.xml");
 
         Student student = new Student("id1","",937);
 
@@ -186,7 +186,7 @@ public class AppTest {
 
         Validator<Student> studentValidator = new StudentValidator();
 
-        studentXMLRepository = new StudentXMLRepository(studentValidator, "studenti.xml");
+        studentXMLRepository = new StudentXMLRepository(studentValidator, "studentitest.xml");
 
         Student student = new Student("id1"," ",937);
 
@@ -198,7 +198,7 @@ public class AppTest {
 
         Validator<Student> studentValidator = new StudentValidator();
 
-        studentXMLRepository = new StudentXMLRepository(studentValidator, "studenti.xml");
+        studentXMLRepository = new StudentXMLRepository(studentValidator, "studentitest.xml");
 
         Student student = new Student("id1","a",937);
 
@@ -210,7 +210,7 @@ public class AppTest {
 
         Validator<Student> studentValidator = new StudentValidator();
 
-        studentXMLRepository = new StudentXMLRepository(studentValidator, "studenti.xml");
+        studentXMLRepository = new StudentXMLRepository(studentValidator, "studentitest.xml");
 
         Student student = new Student("id1","1",937);
 
@@ -222,7 +222,7 @@ public class AppTest {
 
         Validator<Student> studentValidator = new StudentValidator();
 
-        studentXMLRepository = new StudentXMLRepository(studentValidator, "studenti.xml");
+        studentXMLRepository = new StudentXMLRepository(studentValidator, "studentitest.xml");
 
         Student student = new Student("id1","a1b2c3",937);
 
@@ -234,7 +234,7 @@ public class AppTest {
 
         Validator<Student> studentValidator = new StudentValidator();
 
-        studentXMLRepository = new StudentXMLRepository(studentValidator, "studenti.xml");
+        studentXMLRepository = new StudentXMLRepository(studentValidator, "studentitest.xml");
 
         Student student = new Student("id1","z",937);
 
@@ -246,7 +246,7 @@ public class AppTest {
 
         Validator<Student> studentValidator = new StudentValidator();
 
-        studentXMLRepository = new StudentXMLRepository(studentValidator, "studenti.xml");
+        studentXMLRepository = new StudentXMLRepository(studentValidator, "studentitest.xml");
 
         Student student = new Student("id1","Wayne",-1);
 
@@ -258,7 +258,7 @@ public class AppTest {
 
         Validator<Student> studentValidator = new StudentValidator();
 
-        studentXMLRepository = new StudentXMLRepository(studentValidator, "studenti.xml");
+        studentXMLRepository = new StudentXMLRepository(studentValidator, "studentitest.xml");
 
         Student student = new Student("id1","Wayne",0);
 
@@ -270,7 +270,7 @@ public class AppTest {
 
         Validator<Student> studentValidator = new StudentValidator();
 
-        studentXMLRepository = new StudentXMLRepository(studentValidator, "studenti.xml");
+        studentXMLRepository = new StudentXMLRepository(studentValidator, "studentitest.xml");
 
         Student student = new Student("id1","a1b2c3",1);
 
@@ -282,7 +282,7 @@ public class AppTest {
 
         Validator<Student> studentValidator = new StudentValidator();
 
-        studentXMLRepository = new StudentXMLRepository(studentValidator, "studenti.xml");
+        studentXMLRepository = new StudentXMLRepository(studentValidator, "studentitest.xml");
 
         Student student = new Student("id1","Wayne", Integer.MAX_VALUE);
 
@@ -294,7 +294,7 @@ public class AppTest {
 
         Validator<Student> studentValidator = new StudentValidator();
 
-        studentXMLRepository = new StudentXMLRepository(studentValidator, "studenti.xml");
+        studentXMLRepository = new StudentXMLRepository(studentValidator, "studentitest.xml");
 
         Student student = new Student("id1","Wayne",Integer.MIN_VALUE);
 
