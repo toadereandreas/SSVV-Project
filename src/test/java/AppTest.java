@@ -306,6 +306,8 @@ public class AppTest {
     }
 
 
+    // WHITE BOX TESTING
+
     @Test
     public void wb_1(){
 
