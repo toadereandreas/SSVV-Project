@@ -493,4 +493,22 @@ public class AppTest {
         tc_addAssignment();
         tc_addStudent();
     }
+
+    @Test
+    public void integrationTest_1(){
+        tc_addStudent();
+    }
+
+    @Test
+    public void integrationTest_2(){
+        tc_addStudent();
+        tc_addAssignment();
+    }
+
+    @Test
+    public void integrationTest_3(){
+        tc_addGrade();
+        tc_addAssignment();
+        tc_addStudent();
+    }
 }

@@ -57,12 +57,33 @@
       <recent name="D:\University\SEM 6\SSVV\Laboratory 2\SSVV-Project\src\main\java\domain" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AppTest.tc_addAll">
-    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AppTest.integrationTest_3">
+    <configuration name="AppTest.integrationTest_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SSVV-Project" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AppTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="integrationTest_1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.integrationTest_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SSVV-Project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AppTest" />
+      <option name="METHOD_NAME" value="integrationTest_2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.integrationTest_3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SSVV-Project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AppTest" />
+      <option name="METHOD_NAME" value="integrationTest_3" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -87,33 +108,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.wb_3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SSVV-Project" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AppTest" />
-      <option name="METHOD_NAME" value="wb_3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppTest.wb_5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SSVV-Project" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AppTest" />
-      <option name="METHOD_NAME" value="wb_5" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppTest.integrationTest_3" />
+        <item itemvalue="JUnit.AppTest.integrationTest_2" />
+        <item itemvalue="JUnit.AppTest.integrationTest_1" />
         <item itemvalue="JUnit.AppTest.tc_addAll" />
         <item itemvalue="JUnit.AppTest.tc_addGrade" />
-        <item itemvalue="JUnit.AppTest" />
-        <item itemvalue="JUnit.AppTest.wb_5" />
-        <item itemvalue="JUnit.AppTest.wb_3" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +151,8 @@
       <workItem from="1617091474171" duration="395000" />
       <workItem from="1617095790012" duration="4184000" />
       <workItem from="1617886395133" duration="601000" />
-      <workItem from="1618295293131" duration="5291000" />
+      <workItem from="1618295293131" duration="5856000" />
+      <workItem from="1619338063250" duration="390000" />
     </task>
     <servers />
   </component>
@@ -178,26 +180,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-3440.-369.3440.1400@0.0.1920.1040" timestamp="1615893081791" />
-    <state width="1877" height="326" key="GridCell.Tab.0.bottom" timestamp="1618309540138">
+    <state width="1877" height="326" key="GridCell.Tab.0.bottom" timestamp="1619338469458">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="3397" height="462" key="GridCell.Tab.0.bottom/0.0.1920.1040/-3440.-369.3440.1400@-3440.-369.3440.1400" timestamp="1617091868209" />
-    <state width="1877" height="326" key="GridCell.Tab.0.bottom/0.0.1920.1040/-3440.-369.3440.1400@0.0.1920.1040" timestamp="1618309540138" />
-    <state width="1877" height="326" key="GridCell.Tab.0.center" timestamp="1618309540137">
+    <state width="1877" height="326" key="GridCell.Tab.0.bottom/0.0.1920.1040/-3440.-369.3440.1400@0.0.1920.1040" timestamp="1619338469458" />
+    <state width="1877" height="326" key="GridCell.Tab.0.center" timestamp="1619338469458">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="3397" height="462" key="GridCell.Tab.0.center/0.0.1920.1040/-3440.-369.3440.1400@-3440.-369.3440.1400" timestamp="1617091868209" />
-    <state width="1877" height="326" key="GridCell.Tab.0.center/0.0.1920.1040/-3440.-369.3440.1400@0.0.1920.1040" timestamp="1618309540137" />
-    <state width="1877" height="326" key="GridCell.Tab.0.left" timestamp="1618309540137">
+    <state width="1877" height="326" key="GridCell.Tab.0.center/0.0.1920.1040/-3440.-369.3440.1400@0.0.1920.1040" timestamp="1619338469458" />
+    <state width="1877" height="326" key="GridCell.Tab.0.left" timestamp="1619338469457">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="3397" height="462" key="GridCell.Tab.0.left/0.0.1920.1040/-3440.-369.3440.1400@-3440.-369.3440.1400" timestamp="1617091868209" />
-    <state width="1877" height="326" key="GridCell.Tab.0.left/0.0.1920.1040/-3440.-369.3440.1400@0.0.1920.1040" timestamp="1618309540137" />
-    <state width="1877" height="326" key="GridCell.Tab.0.right" timestamp="1618309540137">
+    <state width="1877" height="326" key="GridCell.Tab.0.left/0.0.1920.1040/-3440.-369.3440.1400@0.0.1920.1040" timestamp="1619338469457" />
+    <state width="1877" height="326" key="GridCell.Tab.0.right" timestamp="1619338469458">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="3397" height="462" key="GridCell.Tab.0.right/0.0.1920.1040/-3440.-369.3440.1400@-3440.-369.3440.1400" timestamp="1617091868209" />
-    <state width="1877" height="326" key="GridCell.Tab.0.right/0.0.1920.1040/-3440.-369.3440.1400@0.0.1920.1040" timestamp="1618309540137" />
+    <state width="1877" height="326" key="GridCell.Tab.0.right/0.0.1920.1040/-3440.-369.3440.1400@0.0.1920.1040" timestamp="1619338469458" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1617101737614">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -234,11 +236,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="614" y="131" key="SettingsEditor/0.0.1920.1040/-3440.-369.3440.1400@0.0.1920.1040" timestamp="1615893734384" />
-    <state x="1136" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1618295293170">
+    <state x="1136" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1619338084835">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1405" y="93" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-3440.-369.3440.1400@-3440.-369.3440.1400" timestamp="1617095889756" />
-    <state x="1136" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-3440.-369.3440.1400@0.0.1920.1040" timestamp="1618295293170" />
+    <state x="1136" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-3440.-369.3440.1400@0.0.1920.1040" timestamp="1619338084835" />
     <state x="616" y="199" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1617099044171">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
